@@ -1,63 +1,42 @@
-# Unit 18 PWA Homework: Online/Offline Budget Trackers
 
-Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
+# offline-budget
+[![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
+![offline-budget](https://img.shields.io/github/languages/top/caitlinbou/offline-budget)
+## Description
+This application is a PWA using MongoDB that allows for tracking of simple debits and credits in your budget.
+## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#Contributing)
+* [Tests](#Tests)
+* [Questions](#Questions)
+## Installation
+The package JSON is included, so run npm install to have the necessary node packages for further development.
+## Usage 
+Navigate to the [website]() and fill out the relevant details of your transaction. Install on your homepage for easy access.
 
-Offline Functionality:
+![Screenshot of active site](public/assets/screenshot.png)
+## License 
 
-  * Enter deposits offline
+Copyright 2020 Caitlin Bouroncle
+        
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+        
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+        
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-  * Enter expenses offline
+## Contributing
+Please reach out to discuss any ideas you wish to contribute.
+## Tests
+There are no tests at this time.
+## Questions
+For any questions please find me on GitHub or email me: 
 
-When brought back online:
+[gitHub profile](https://github.com/caitlinbou)
 
-  * Offline entries should be added to tracker.
+[email contact](mailto:caitlin.bouroncle@gmail.com)
 
-## User Story
-AS AN avid traveller
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-SO THAT my account balance is accurate when I am traveling
-
-## Business Context
-
-Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
-
-
-## Acceptance Criteria
-GIVEN a user is on Budget App without an internet connection
-WHEN the user inputs a withdrawal or deposit
-THEN that will be shown on the page, and added to their transaction history when their connection is back online.
-
-- - -
-
-## Commit Early and Often
-
-* One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
-
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
-
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
-
-* Follow these guidelines for committing:
-
-  * Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
-
-  * Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
-
-  * Don't commit half done work, for the sake of your collaborators (and your future self!)
-
-  * Test your application before you commit to ensure functionality at every step in the development process
-
-* We would like you to have well over 200 commits by graduation, so commit early and often!
-
-* Deploy your application with [Heroku and MongoDB Atlas.](../04-Important/MongoAtlas-Deploy.md)
-
-## Submission on BCS
-
-* You are required to submit the following:
-
-  * the URL to the deployed application
-
-  * the URL to the Github repository
-
+![offline-budget](https://img.shields.io/static/v1?label=offline-budget&message=onlineOffline&color=brightgreen)
