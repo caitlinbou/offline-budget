@@ -15,7 +15,7 @@ This application is a PWA using MongoDB that allows for tracking of simple debit
 ## Installation
 The package JSON is included, so run npm install to have the necessary node packages for further development.
 ## Usage 
-Navigate to the [website]() and fill out the relevant details of your transaction. Install on your homepage for easy access.
+Navigate to the [website](https://anytime-budget.herokuapp.com/ ) and fill out the relevant details of your transaction. Install on your homepage for easy access.
 
 ![Screenshot of active site](public/assets/screenshot.png)
 ## License 
